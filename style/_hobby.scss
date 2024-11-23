@@ -1,0 +1,26 @@
+.hobby {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+
+    &__image {
+        max-width: 50%;
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    &__title {
+        color: #ffb6c1;
+    }
+
+    &__description {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
